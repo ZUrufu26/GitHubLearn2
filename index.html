@@ -1,57 +1,87 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Моё Портфолио</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Моё Портфолио</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Ваш основной файл стилей -->
+    <link rel="stylesheet" href="footer.css"> <!-- Новый файл стилей подвала -->
 </head>
 <body>
 
 <header>
-<h1>Моё Портфолио 🚀</h1>
-<nav>
-<a href="#about">Обо мне</a>
-<a href="#projects">Проекты</a>
-<a href="#contact">Контакты</a>
-</nav>
+    <h1>Моё Портфолио 🚀</h1>
+    <nav>
+        <a href="#about">Обо мне</a>
+        <a href="#projects">Проекты</a>
+        <a href="#contact">Контакты</a>
+    </nav>
 </header>
 
 <section id="about" class="section">
-<h2>Обо мне 👨‍💻</h2>
-<p>Привет! Я Иван, веб-разработчик с опытом в создании современных и отзывчивых веб-сайтов.</p>
+    <h2>Обо мне 👨‍💻</h2>
+    <p>Привет! Я Иван, веб-разработчик с опытом в создании современных и отзывчивых веб-сайтов.</p>
 </section>
 
 <section id="projects" class="section">
-<h2>Мои проекты 💼</h2>
-<div class="projects">
-<div class="project">
-<h3>Проект 1</h3>
-<p>Описание проекта 1...</p>
-<a href="#">Смотреть проект</a>
-</div>
-<div class="project">
-<h3>Проект 2</h3>
-<p>Описание проекта 2...</p>
-<a href="#">Смотреть проект</a>
-</div>
-<div class="project">
-<h3>Проект 3</h3>
-<p>Описание проекта 3...</p>
-<a href="#">Смотреть проект</a>
-</div>
-<!-- Добавь больше проектов по необходимости -->
-</div>
+    <h2>Мои проекты 💼</h2>
+    <div class="projects">
+        <div class="project">
+            <h3>Проект 1</h3>
+            <p>Описание проекта 1...</p>
+            <a href="#">Смотреть проект</a>
+        </div>
+        <div class="project">
+            <h3>Проект 2</h3>
+            <p>Описание проекта 2...</p>
+            <a href="#">Смотреть проект</a>
+        </div>
+        <div class="project">
+            <h3>Проект 3</h3>
+            <p>Описание проекта 3...</p>
+            <a href="#">Смотреть проект</a>
+        </div>
+        <!-- Добавь больше проектов по необходимости -->
+    </div>
 </section>
 
 <section id="contact" class="section">
-<h2>Контакты 📬</h2>
-<p>Свяжитесь со мной по электронной почте: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <h2>Контакты 📬</h2>
+    <p>Свяжитесь со мной по электронной почте: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
 </section>
 
+<!-- Добавленный подвал -->
 <footer>
-<p>&copy; 2024 Иван. Все права защищены.</p>
+    <div class="footer-container">
+        <div class="footer-section about">
+            <h3>Обо мне</h3>
+            <p>Я Иван, веб-разработчик, создающий современные и функциональные веб-сайты для различных целей.</p>
+        </div>
+        <div class="footer-section links">
+            <h3>Навигация</h3>
+            <ul>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#projects">Проекты</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="footer-section social">
+            <h3>Социальные сети</h3>
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Иван. Все права защищены.</p>
+    </div>
 </footer>
+
+<!-- Подключение библиотеки иконок Font Awesome для социальных иконок -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
 </body>
 </html>
